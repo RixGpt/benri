@@ -5,7 +5,7 @@ title: Welcome to Benri
 
 <div class="text-center my-5">
   <h1 class="display-4 fw-bold">Welcome to Benri</h1>
-  <p class="lead text-muted">A simple, cheeky, visual tracker of inflation’s bite on daily life.</p>
+  <p class="lead text-muted">We're developers using AI for good. We build simple, helpful tools for everyone. All free, no <i>gotchas</i>.</p>
 </div>
 
 <div class="card shadow-sm mb-4">
@@ -16,8 +16,8 @@ title: Welcome to Benri
 </div>
 
 <div class="list-group">
-  <a href="/bare.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-    🧺 View the Bare Necessities Chart
+  <a href="/benri/bare.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+    Bare Necessities Index - Tracking prices for basic household items
     <span class="badge bg-primary rounded-pill">Live</span>
   </a>
 </div>
