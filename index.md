@@ -12,7 +12,6 @@ title: Welcome to Benri
   <div class="card-body">
     <h5 class="card-title">Welcome to BenriHub</h5>
     <p class="card-text">Small but helpful tools to make your life a little easier. Track mortgage rates, remember important dates, and get timely reminders for the things that matter - all completely free.</p>
-    
     <div class="mt-3">
       <h6 class="mb-3">Get notified when we launch new tools</h6>
       <div class="input-group mb-2" style="max-width: 400px;">
