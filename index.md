@@ -3,10 +3,6 @@ layout: default
 title: Welcome to Benri
 ---
 
----
-layout: default
----
-
 <style>
   .tool-item {
     transition: all 0.2s ease;
