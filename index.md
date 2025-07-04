@@ -10,7 +10,7 @@ title: Welcome to Benri
       We build tools to help make your life easier. 
     </p>
     <div class="mb-5">
-      <a href="/docs/5.0/examples/" class="btn btn-primary btn-lg px-4">Download examples</a>
+      <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
     </div>
     <hr class="col-3 col-md-2 mb-5">
     <div class="row g-5">
