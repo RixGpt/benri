@@ -30,8 +30,8 @@ title: Welcome to Benri
         </div>
       </div>
       <div class="col-md-6">
-        <h2>INFO-4-U</h2>
-        <p>A collection of trackers and info pages to help keep up-to-date on important areas like the economy.</p>
+        <h2>Info-4-U</h2>
+        <p>Easy-to-read trackers and info pages to keep you up-to-date on key topics like mortgage rates and the economy.</p>
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
