@@ -17,7 +17,8 @@ title: Welcome to Benri
     <div class="row g-5">
       <div class="col-md-6">
         <h2>Helpful Tools</h2>
-        <p>Our growing collection of free tools to simplify your day.</p>
+        <p>Our growing collection of tools to simplify your day.<br>
+        All free. No gotchas.</p>
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
