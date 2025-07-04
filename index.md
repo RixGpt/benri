@@ -5,10 +5,10 @@ title: Welcome to Benri
 
 <main>
   <div class="container py-5">
-    <h1>Welcome to Benri</h1>
+    <h1>Hi, We're Benri</h1>
     <p class="fs-5 col-md-8">
-      <b>Tiny tools. Big relief.</b><br>
-      A growing collection of free, no-fuss tools that simplify your day, save you time, and make life feel just a little lighter.
+      <b>We build tools that help people.</b><br>
+      Benri is a growing collection of free, no-fuss tools that simplify your day, save you time, and make life feel just a little lighter.
     </p>
     <div class="mb-5">
       <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
