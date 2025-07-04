@@ -6,7 +6,9 @@ title: Welcome to Benri
 <main>
   <div class="container py-5">
     <h1>Welcome to Benri</h1>
-    <p class="fs-5 col-md-8">Here you'll find small but helpful tools to make your life a little easier. Track mortgage rates, remember important dates, and get timely reminders for the things that matter - all completely free. </p>
+    <p class="fs-5 col-md-8">
+      We build tools to help make your life easier. 
+    </p>
     <div class="mb-5">
       <a href="/docs/5.0/examples/" class="btn btn-primary btn-lg px-4">Download examples</a>
     </div>
