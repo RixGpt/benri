@@ -7,8 +7,8 @@ title: Welcome to Benri
   <div class="container py-5">
     <h1>Welcome to Benri</h1>
     <p class="fs-5 col-md-8">
-      We build tools and apps to help make your life easier. <br>
-      All free. No gotchas.
+      Tiny tools. Big relief.<br>
+      A growing collection of free, no-fuss tools to simplify tasks, save time, and make the everyday feel easier.
     </p>
     <div class="mb-5">
       <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
