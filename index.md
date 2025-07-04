@@ -17,7 +17,7 @@ title: Welcome to Benri
     <div class="row g-5">
       <div class="col-md-6">
         <h2>Helpful Tools</h2>
-        <p>Read more detailed instructions and documentation for using or contributing to Bootstrap.</p>
+        <p>Our growing collection of free tools to simplify your day.</p>
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
@@ -29,8 +29,8 @@ title: Welcome to Benri
         </div>
       </div>
       <div class="col-md-6">
-        <h2>Guides</h2>
-        <p>Read more detailed instructions and documentation for using or contributing to Bootstrap.</p>
+        <h2>INFO-4-U</h2>
+        <p>A collection of trackers and info pages to help keep up-to-date on important areas like the economy.</p>
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
