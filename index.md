@@ -21,10 +21,10 @@ title: Welcome to Benri
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
-              <div class="fw-bold">Bootstrap quick start guide</div>
-              <small class="d-block text-muted">Get up and running fast with Bootstrap</small>
+              <div class="fw-bold">TRACK MY MORTGAGE RATE</div>
+              <small class="d-block text-muted">Free alerts, just for you, when mortgage rates go down (or up). Enter the amount you want to track and our Track My Mortgage     Rate will alert when mortgage rates change by that amount. Or sign up to our general tracker to get weekly mortgage rates updates.  </small>
             </div>
-            <span class="badge bg-primary rounded-pill">Live</span>
+            <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
           </a>
           <a href="/docs/5.0/getting-started/webpack/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
