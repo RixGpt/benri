@@ -26,13 +26,6 @@ title: Welcome to Benri
             </div>
             <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
           </a>
-          <a href="/docs/5.0/getting-started/webpack/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-            <div>
-              <div class="fw-bold">Bootstrap Webpack guide</div>
-              <small class="d-block text-muted">Using Bootstrap with Webpack</small>
-            </div>
-            <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
-          </a>
         </div>
       </div>
       <div class="col-md-6">
