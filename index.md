@@ -7,7 +7,8 @@ title: Welcome to Benri
   <div class="container py-5">
     <h1>Welcome to Benri</h1>
     <p class="fs-5 col-md-8">
-      We build tools to help make your life easier. 
+      We build tools and apps to help make your life easier. <br>
+      All free. No gotchas.
     </p>
     <div class="mb-5">
       <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
@@ -15,7 +16,7 @@ title: Welcome to Benri
     <hr class="col-3 col-md-2 mb-5">
     <div class="row g-5">
       <div class="col-md-6">
-        <h2>Guides</h2>
+        <h2>Helpful Tools</h2>
         <p>Read more detailed instructions and documentation for using or contributing to Bootstrap.</p>
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
