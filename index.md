@@ -32,7 +32,7 @@ title: Welcome to Benri
               <div class="fw-bold">BESU HOMEPAGE</div>
               <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet.</small>
             </div>
-            <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
+            <span class="badge bg-primary text-dark rounded-pill">LIVE</span>
           </a>
         </div>
       </div>
