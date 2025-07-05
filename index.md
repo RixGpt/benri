@@ -20,7 +20,7 @@ title: Welcome to Benri
         <p>Our growing collection of tools to simplify your day.<br>
         All free. No gotchas.</p>
         <div class="list-group">
-          <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+          <a href="" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
               <div class="fw-bold">TRACK MY MORTGAGE RATE</div>
               <small class="d-block text-muted">Get free alerts when mortgage rates move. Track a custom amount, or get weekly updates with our general tracker—no fuss, just updates that matter.</small>
@@ -30,7 +30,7 @@ title: Welcome to Benri
           <a href="https://chromewebstore.google.com/detail/besu-homepage/npfcobepdfphgajogfeejbjpbghdhbnn?utm_source=item-share-cb" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
               <div class="fw-bold">BESU HOMEPAGE</div>
-              <small class="d-block text-muted">Get free alerts when mortgage rates move. Track a custom amount, or get weekly updates with our general tracker—no fuss, just updates that matter.</small>
+              <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet.</small>
             </div>
             <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
           </a>
