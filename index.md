@@ -30,9 +30,9 @@ title: Welcome to Benri
           <a href="https://chromewebstore.google.com/detail/besu-homepage/npfcobepdfphgajogfeejbjpbghdhbnn?utm_source=item-share-cb" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
               <div class="fw-bold">BESU HOMEPAGE</div>
-              <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet.</small>
+              <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet.Works on Chrome, Brave</small>
             </div>
-            <span class="badge bg-primary text-dark rounded-pill">LIVE</span>
+            <span class="badge bg-primary rounded-pill">LIVE</span>
           </a>
         </div>
       </div>
