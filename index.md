@@ -27,6 +27,13 @@ title: Welcome to Benri
             </div>
             <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
           </a>
+          <a href="https://chromewebstore.google.com/detail/besu-homepage/npfcobepdfphgajogfeejbjpbghdhbnn?utm_source=item-share-cb" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+            <div>
+              <div class="fw-bold">BESU HOMEPAGE</div>
+              <small class="d-block text-muted">Get free alerts when mortgage rates move. Track a custom amount, or get weekly updates with our general tracker—no fuss, just updates that matter.</small>
+            </div>
+            <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
+          </a>
         </div>
       </div>
       <div class="col-md-6">
