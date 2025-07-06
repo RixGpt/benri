@@ -5,15 +5,25 @@ title: Welcome to Benri
 
 <main>
   <div class="container py-5">
-    <h1>Hi, We're Benri</h1>
-    <p class="fs-5 col-md-8">
-      <b>We build tools that help people.</b><br>
-      Benri is a growing collection of free, no-fuss tools that simplify your day, save you time, and make life feel just a little lighter.
-    </p>
-    <div class="mb-5">
-      <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
+    <!-- Intro Row with Icon -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-8">
+        <h1>Hi, We're Benri</h1>
+        <p class="fs-5">
+          <b>We build tools that help people.</b><br>
+          Benri is a growing collection of free, no-fuss tools that simplify your day, save you time, and make life feel just a little lighter.
+        </p>
+        <div class="mb-4">
+          <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <!-- Large Bootstrap Icon -->
+        <i class="bi bi-stars" style="font-size: 4rem; color: #0d6efd;"></i>
+      </div>
     </div>
     <hr class="col-3 col-md-2 mb-5">
+    <!-- Tool Sections -->
     <div class="row g-5">
       <div class="col-md-6">
         <h2>Helpful Tools</h2>
@@ -30,7 +40,7 @@ title: Welcome to Benri
           <a href="https://chromewebstore.google.com/detail/besu-homepage/npfcobepdfphgajogfeejbjpbghdhbnn?utm_source=item-share-cb" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
               <div class="fw-bold">BESU HOMEPAGE</div>
-              <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet.Works on Chrome, Brave</small>
+              <small class="d-block text-muted">Transform your browser into a hub that helps you focus, stay motivated and support the planet. Works on Chrome, Brave</small>
             </div>
             <span class="badge bg-primary rounded-pill">LIVE</span>
           </a>
