@@ -52,15 +52,8 @@ title: Welcome to Benri
         <div class="list-group">
           <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
-              <div class="fw-bold">Bootstrap quick start guide</div>
-              <small class="d-block text-muted">Get up and running fast with Bootstrap</small>
-            </div>
-            <span class="badge bg-primary rounded-pill">Live</span>
-          </a>
-          <a href="/docs/5.0/getting-started/webpack/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-            <div>
-              <div class="fw-bold">Bootstrap Webpack guide</div>
-              <small class="d-block text-muted">Using Bootstrap with Webpack</small>
+              <div class="fw-bold">MORTGAGE RATES CHART</div>
+              <small class="d-block text-muted">Chart of the 30-year US Mortgage rates. Updated weekly.</small>
             </div>
             <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
           </a>
