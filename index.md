@@ -19,7 +19,7 @@ title: Welcome to Benri
       </div>
       <div class="col-md-4 text-center">
         <!-- Large Bootstrap Icon -->
-        <i class="bi bi-stars" style="font-size: 4rem; color: #0d6efd;"></i>
+        <i class="bi bi-stars" style="font-size: 5rem; color: #0d6efd;"></i>
       </div>
     </div>
     <hr class="col-3 col-md-2 mb-5">
@@ -28,7 +28,7 @@ title: Welcome to Benri
       <div class="col-md-6">
         <h2>Helpful Tools</h2>
         <p>Our growing collection of tools to simplify your day.<br>
-        All free. No gotchas.</p>
+        <i>All free. No gotchas.</i></p>
         <div class="list-group">
           <a href="" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
