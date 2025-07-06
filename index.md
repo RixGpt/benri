@@ -14,7 +14,7 @@ title: Welcome to Benri
           Benri is a growing collection of free, no-fuss tools that simplify your day, save you time, and make life feel just a little lighter.
         </p>
         <div class="mb-4">
-          <a href="/docs/5.0/examples/" class="btn btn-primary btn-sm px-4">Download examples</a>
+          <a href="/aboutbenri" class="btn btn-primary btn-sm px-4">About Benri</a>
         </div>
       </div>
       <div class="col-md-4 text-center">
