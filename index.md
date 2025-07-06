@@ -19,7 +19,7 @@ title: Welcome to Benri
       </div>
       <div class="col-md-4 text-center">
         <!-- Large Bootstrap Icon -->
-        <i class="bi bi-stars" style="font-size: 5rem; color: #0d6efd;"></i>
+       <img src="/benri/benri_icon.png" alt="Benri Icon" class="img-fluid" style="max-width: 150px; height: auto;">
       </div>
     </div>
     <hr class="col-3 col-md-2 mb-5">
