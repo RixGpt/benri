@@ -18,7 +18,7 @@ title: Bare Necessities Index
        <img src="/benri/benri_icon.png" alt="Benri Icon" class="img-fluid" style="max-width: 150px; height: auto;">
       </div>
     </div>
-    <hr class="col-3 col-md-2 mb-5">
+    <hr class="col-3 col-md-2 mb-5">    
     <!-- Chart Section -->
     <div class="row g-5">
       <div class="col-12">
@@ -29,7 +29,7 @@ title: Bare Necessities Index
         </div>
         <p id="last-updated" class="text-center small text-muted">Loading update date…</p>
       </div>
-    </div>
+    </div>    
     <!-- Commentary Section -->
     <div class="row g-5 mt-2">
       <div class="col-md-6">
@@ -48,11 +48,10 @@ title: Bare Necessities Index
     </div>
   </div>
 </main>
-
 <!-- Chart.js & data loader -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-  const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRWBdWUYQ4N2leMbg1PxjaIj219v4nQ3gb_TwGhO45XsTK04cyYO-vHF8rjC20G1p-R_k0wRfh13TQE/pub?gid=1101732490&single=true&output=csv';
+  const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT5nPX2me4c9zl6MoS8lCPC1cirRMbTfU-hnAWhSX---JNatc5eEkPQPO0IYJouhmDueskUa_sX5ssa/pub?gid=1263993722&single=true&output=csv';
   fetch(SHEET_URL)
     .then(response => response.text())
     .then(csv => {
