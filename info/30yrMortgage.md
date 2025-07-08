@@ -4,6 +4,14 @@ title: Bare Necessities Index
 ---
 <main>
   <div class="container py-5">
+        <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/info">Info-4-U</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Bare Necessities Index</li>
+      </ol>
+    </nav>
     <!-- Intro Row with Icon -->
     <div class="row align-items-center mb-4">
       <div class="col-md-8">
