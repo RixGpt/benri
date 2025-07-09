@@ -50,12 +50,12 @@ title: Welcome to Benri
         <h2>Info-4-U</h2>
         <p>Easy-to-read trackers and info pages to keep you up-to-date on key topics like mortgage rates and the economy.</p>
         <div class="list-group">
-          <a href="/docs/5.0/getting-started/introduction/" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+          <a href="/info/30yrMortgage" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
             <div>
               <div class="fw-bold">MORTGAGE RATES CHART</div>
               <small class="d-block text-muted">Chart of the 30-year US Mortgage rates. Updated weekly.</small>
             </div>
-            <span class="badge bg-warning text-dark rounded-pill">In Progress</span>
+            <span class="badge bg-primary rounded-pill">LIVE</span>
           </a>
         </div>
       </div>
