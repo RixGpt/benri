@@ -35,7 +35,9 @@ title: 30Yr Mortgage Interest Rates
           <div class="card-body text-center">
             <h3 class="mb-0">Latest 30Yr Mortgage Interest Rate: <span id="latest-rate" class="text-primary">Loading...</span></h3>
           </div>
-        </div>        
+        </div>
+        <p id="last-updated" class="text-center small text-muted mb-4">Loading update date…</p>
+        
         <!-- Year Selector -->
         <div class="card mb-3">
           <div class="card-body">
@@ -56,7 +58,6 @@ title: 30Yr Mortgage Interest Rates
             <canvas id="bareChart" height="140"></canvas>
           </div>
         </div>
-        <p id="last-updated" class="text-center small text-muted">Loading update date…</p>
       </div>
     </div>    
     <!-- Commentary Section -->
