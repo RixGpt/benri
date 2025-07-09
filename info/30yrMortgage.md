@@ -15,10 +15,11 @@ title: Bare Necessities Index
     <!-- Intro Row with Icon -->
     <div class="row align-items-center mb-4">
       <div class="col-md-8">
-        <h1>🧺 Bare Necessities Index</h1>
+        <h1>30Yr Mortgage Interest Rates</h1>
         <p class="fs-5">
-          <b>Tracking the cost of comfort: food, fuel, shelter, and soap since 2020.</b><br>
-          This index provides a clear view of how essential living costs have changed over time, helping you understand economic trends that matter most to your daily life.
+          <b>Tracking the US 30Yr Mortgage Interest Rates</b> (Weekly Updates)<br>
+          We track the US 30Yr mortgage interest rates so that you can have a sense of where interest rates sit, and whether they look to coming down, holding or going up.</br>
+          This is part of Benri's Info-4-U series to give you the information you need to make decisions.
         </p>
       </div>
       <div class="col-md-4 text-center">
