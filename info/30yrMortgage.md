@@ -18,7 +18,7 @@ title: 30Yr Mortgage Interest Rates
         <h1>30Yr Mortgage Interest Rates</h1>
         <p class="fs-5">
           <b>Tracking the US 30Yr Mortgage Interest Rates</b> (Weekly Updates)<br>
-          We track the US 30Yr mortgage interest rates so that you can have a sense of where interest rates sit, and whether they look to coming down, holding or going up.</br>
+          We track the US 30Yr mortgage interest rates so that you can have a sense of where interest rates sit, and whether they look to coming down, holding or going up.
           This is part of Benri's Info-4-U series to give you the information you need to make decisions.
         </p>
       </div>
