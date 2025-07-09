@@ -30,6 +30,12 @@ title: 30Yr Mortgage Interest Rates
     <!-- Chart Section -->
     <div class="row g-5">
       <div class="col-12">
+        <!-- Latest Rate Display -->
+        <div class="card bg-light border-0 mb-3">
+          <div class="card-body text-center">
+            <h3 class="mb-0">Latest 30Yr Mortgage Interest Rate: <span id="latest-rate" class="text-primary">Loading...</span></h3>
+          </div>
+        </div>  
         <div class="card shadow-sm mb-3">
           <div class="card-body">
             <canvas id="bareChart" height="140"></canvas>
@@ -71,6 +77,9 @@ title: 30Yr Mortgage Interest Rates
         labels.push(date);
         values.push(parseFloat(value));
       });
+      // Display latest rate
+      const latestRate = values[values.length - 1];
+      document.getElementById("latest-rate").textContent = `${latestRate.toFixed(2)}%`;
       document.getElementById("last-updated").textContent = `Last updated: ${labels[labels.length - 1]}`;
       const ctx = document.getElementById('bareChart').getContext('2d');
       new Chart(ctx, {
@@ -78,7 +87,7 @@ title: 30Yr Mortgage Interest Rates
         data: {
           labels: labels,
           datasets: [{
-            label: 'Bare Necessities Index',
+            label: '30-Year Mortgage Rate',
             data: values,
             borderColor: '#0d6efd',
             backgroundColor: 'rgba(13, 110, 253, 0.1)',
@@ -93,10 +102,10 @@ title: 30Yr Mortgage Interest Rates
           scales: {
             y: {
               beginAtZero: false,
-              suggestedMin: Math.min(...values) - 2,
+              suggestedMin: Math.min(...values) - 0.5,
               title: {
                 display: true,
-                text: 'Index (Jan 2020 = 100)'
+                text: 'Interest Rate (%)'
               }
             },
             x: {
@@ -110,7 +119,7 @@ title: 30Yr Mortgage Interest Rates
             legend: { display: false },
             tooltip: {
               callbacks: {
-                label: context => `${context.parsed.y.toFixed(1)}`
+                label: context => `${context.parsed.y.toFixed(2)}%`
               }
             }
           }
