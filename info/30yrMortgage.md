@@ -35,7 +35,22 @@ title: 30Yr Mortgage Interest Rates
           <div class="card-body text-center">
             <h3 class="mb-0">Latest 30Yr Mortgage Interest Rate: <span id="latest-rate" class="text-primary">Loading...</span></h3>
           </div>
-        </div>  
+        </div>        
+        <!-- Year Selector -->
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <label for="yearSelect" class="form-label"><strong>View data starting from:</strong></label>
+              </div>
+              <div class="col-md-6">
+                <select class="form-select" id="yearSelect">
+                  <!-- Options will be populated by JavaScript -->
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="card shadow-sm mb-3">
           <div class="card-body">
             <canvas id="bareChart" height="140"></canvas>
@@ -66,23 +81,74 @@ title: 30Yr Mortgage Interest Rates
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
   const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT5nPX2me4c9zl6MoS8lCPC1cirRMbTfU-hnAWhSX---JNatc5eEkPQPO0IYJouhmDueskUa_sX5ssa/pub?gid=1263993722&single=true&output=csv';
+  let allData = [];
+  let chart = null;
+  function parseDate(dateStr) {
+    // Handle different date formats that might come from the spreadsheet
+    const date = new Date(dateStr);
+    return date;
+  }
+  function filterDataByYear(startYear) {
+    return allData.filter(item => {
+      const itemYear = parseDate(item.date).getFullYear();
+      return itemYear >= startYear;
+    });
+  }
+  function updateChart(startYear) {
+    const filteredData = filterDataByYear(startYear);
+    const labels = filteredData.map(item => item.date);
+    const values = filteredData.map(item => item.value); 
+    chart.data.labels = labels;
+    chart.data.datasets[0].data = values;
+    chart.options.scales.y.suggestedMin = Math.min(...values) - 0.5;
+    chart.update();
+  }
+  function populateYearSelector() {
+    const yearSelect = document.getElementById('yearSelect');
+    const earliestYear = Math.min(...allData.map(item => parseDate(item.date).getFullYear()));
+    const currentYear = new Date().getFullYear();
+    // Clear existing options
+    yearSelect.innerHTML = '';
+    // Add year options from current year down to earliest year
+    for (let year = currentYear; year >= earliestYear; year--) {
+      const option = document.createElement('option');
+      option.value = year;
+      option.textContent = year;
+      if (year === 2020) {
+        option.selected = true; // Default to 2020
+      }
+      yearSelect.appendChild(option);
+    }
+    // Add event listener for year changes
+    yearSelect.addEventListener('change', function() {
+      updateChart(parseInt(this.value));
+    });
+  }
   fetch(SHEET_URL)
     .then(response => response.text())
     .then(csv => {
-      const rows = csv.trim().split('\n').slice(1);
-      const labels = [];
-      const values = [];
-      rows.forEach(row => {
+      const rows = csv.trim().split('\n').slice(1); 
+      // Store all data
+      allData = rows.map(row => {
         const [date, value] = row.split(',');
-        labels.push(date);
-        values.push(parseFloat(value));
-      });
+        return {
+          date: date,
+          value: parseFloat(value)
+        };
+      });      
       // Display latest rate
-      const latestRate = values[values.length - 1];
+      const latestRate = allData[allData.length - 1].value;
       document.getElementById("latest-rate").textContent = `${latestRate.toFixed(2)}%`;
-      document.getElementById("last-updated").textContent = `Last updated: ${labels[labels.length - 1]}`;
+      document.getElementById("last-updated").textContent = `Last updated: ${allData[allData.length - 1].date}`;      
+      // Populate year selector
+      populateYearSelector();      
+      // Filter data to start from 2020 by default
+      const defaultData = filterDataByYear(2020);
+      const labels = defaultData.map(item => item.date);
+      const values = defaultData.map(item => item.value);      
+      // Create chart
       const ctx = document.getElementById('bareChart').getContext('2d');
-      new Chart(ctx, {
+      chart = new Chart(ctx, {
         type: 'line',
         data: {
           labels: labels,
