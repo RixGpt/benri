@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bare Necessities Index
+title: 30Yr Mortgage Interest Rates
 ---
 <main>
   <div class="container py-5">
@@ -9,7 +9,7 @@ title: Bare Necessities Index
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item"><a href="/info">Info-4-U</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Bare Necessities Index</li>
+        <li class="breadcrumb-item active" aria-current="page">30Yr Mortgage Interest</li>
       </ol>
     </nav>
     <!-- Intro Row with Icon -->
