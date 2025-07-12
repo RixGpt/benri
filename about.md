@@ -26,21 +26,14 @@ title: About Benri
         <p>At Benri, we believe technology should make life simpler, not more complicated. That's why we create free, straightforward tools that solve real problems without the bloat, ads, or hidden fees you'll find elsewhere.</p>
         <p><i>Benri means "convenient" in Japanese—and that's exactly what we aim to be.</i></p>
         <h2 class="mt-4">What Makes Us Different</h2>
-        <div class="list-group">
-          <div class="list-group-item">
-            <div class="fw-bold">Always Free</div>
-            <small class="d-block text-muted">No premium tiers, no hidden costs. Our tools are free because we believe helpful resources should be accessible to everyone.</small>
-          </div>
-          <div class="list-group-item">
-            <div class="fw-bold">No Nonsense</div>
-            <small class="d-block text-muted">Clean interfaces, clear purposes. We cut through the clutter to deliver exactly what you need, when you need it.</small>
-          </div>
-          <div class="list-group-item">
-            <div class="fw-bold">Privacy First</div>
-            <small class="d-block text-muted">We don't track, sell, or misuse your data. Your privacy is important to us, and we design our tools with that in mind.</small>
-          </div>
+        <div>
+          <p><strong>Always Free</strong><br>
+          No premium tiers, no hidden costs. Our tools are free because we believe helpful resources should be accessible to everyone.</p>
+          <p><strong>No Nonsense</strong><br>
+          Clean interfaces, clear purposes. We cut through the clutter to deliver exactly what you need, when you need it.</p>
+          <p><strong>Privacy First</strong><br>
+          We don't track, sell, or misuse your data. Your privacy is important to us, and we design our tools with that in mind.</p>
         </div>
-      </div>   
       <div class="col-md-6">
         <h2>Our Story</h2>
         <p>Benri started from a simple frustration: why do simple tasks require complicated tools? We found ourselves jumping between multiple websites, dealing with intrusive ads, and paying for features we didn't need.</p>
