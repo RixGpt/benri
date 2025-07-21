@@ -1,3 +1,23 @@
-theme: minima
 title: Benri
-description: The Bare Necessities Index
+description: We build tools that help people
+baseurl: "" # leave this blank if publishing at rixgpt.github.io/benri
+url: "https://rixgpt.github.io/benri"
+
+theme: minima
+
+# Blog settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+
+# Plugins (for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude folders from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
