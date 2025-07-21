@@ -7,7 +7,7 @@ theme: minima
 
 # Blog settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title.html
 
 # Plugins (for GitHub Pages)
 plugins:
