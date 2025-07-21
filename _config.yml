@@ -1,6 +1,6 @@
 title: Benri
 description: We build tools that help people
-baseurl: "" # leave this blank if publishing at rixgpt.github.io/benri
+baseurl: "/benri"
 url: "https://rixgpt.github.io/benri"
 
 theme: minima
